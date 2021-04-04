@@ -11,7 +11,7 @@ In these tutorials, you will not have to install anything on your
 computer, as we will be using an embedded text editor that can
 help you edit and format your code, and run the examples.
 
-<script type="text/javascript" src="https://dartpad.dev/inject_embed.dart.js" defer></script>
+<script type="text/javascript" src="scripts/helper.js" defer></script>
 
 <style>
 <!-- TODO: This should go in the HEAD.  Use script to inject it. -->
