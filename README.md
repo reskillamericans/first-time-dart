@@ -2,6 +2,8 @@
 
 *A collection of on-line tutorials for first-time programmers learning the Dart language.*
 
+These tutorials should be viewed from https://reskillamericans.github.io/first-time-dart/index.html.
+
 These tutorials can be viewed completely in the web browser using the [DartPad](https://dartpad.dev/)
 web site run by the Dart Language group.
 
@@ -16,10 +18,7 @@ compile and run Dart programs from your own computer.
 
 ## Tutorials
 
-- [Hello, World](hello-world.md)
-- [Variables and Expressions](variables.md)
-- [Loops](loops.md)
-- [Data Types](data-types.md)
-
-
-
+1. [Hello, World](hello-world.md)
+2. [Variables and Expressions](variables.md)
+3. [Loops](loops.md)
+4. [Data Types](data-types.md)
