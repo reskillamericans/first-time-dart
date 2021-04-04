@@ -1,0 +1,19 @@
+#!/bin/bash
+# build-project --- Create HTML files from markdown files in docs directory.
+set -e
+
+cd $PROJ_DIR
+
+mkdir -p docs/scripts
+
+for file in *.md
+do
+    target="docs/${file%.md}.html"
+    echo Building $target
+    cat assets/jekyll-header.html > $target
+    markdown-it $file >> docs/${file%.md}.html
+    cat assets/jekyll-footer.html >> $target
+done
+
+cp assets/style.css docs
+cp scripts/*.js docs/scripts

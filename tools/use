@@ -1,0 +1,33 @@
+# Initialize this environment by executing:
+#
+#   $ source use
+#
+export PROJECT=first-time-dart
+# Clean the npm bin path by using pwd - bogus path in git-bash.
+export TOOLS_DIR="$(unset CDPATH; cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+source $TOOLS_DIR/usefuncs
+
+#
+# Add build tools to PATH
+#
+PATH="$PROJ_DIR/bin:$(cd $PROJ_DIR; cd $(npm bin); pwd):$PATH"
+# CDPATH="$PROJ_DIR/src:$PROJ_DIR/node_modules/@types:$CDPATH"
+# export NODE_PATH="$PROJ_DIR/lib"
+
+#
+# Non-interactive shells - exit here.
+#
+# Allow bash scripts to use source $TOOLS_DIR/use to assign environment
+# variables only via:
+#
+# TOOLS_DIR="$(unset CDPATH; cd $(dirname ${BASH_SOURCE[0]}) && pwd)"
+# source $TOOLS_DIR/use
+#
+if [ -z "$PS1" ]; then
+   return
+fi
+
+# Interactive shells - show help message.
+if [ -n "$PS1" ]; then
+   show-commands
+fi
