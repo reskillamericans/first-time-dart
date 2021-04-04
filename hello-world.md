@@ -14,9 +14,9 @@ help you edit and format your code, and run the examples.
 <script type="text/javascript" src="https://dartpad.dev/inject_embed.dart.js" defer></script>
 
 <style>
+<!-- TODO: This should go in the HEAD.  Use script to inject it. -->
 iframe {
-    width: 95%;
-    margin: 20px auto;
+    width: 100%;
 }
 </style>
 
