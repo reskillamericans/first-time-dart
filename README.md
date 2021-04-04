@@ -2,7 +2,7 @@
 
 *A collection of on-line tutorials for first-time programmers learning the Dart language.*
 
-These tutorials should be viewed from https://reskillamericans.github.io/first-time-dart/index.html.
+These tutorials should be viewed from https://reskillamericans.github.io/first-time-dart/.
 
 These tutorials can be viewed completely in the web browser using the [DartPad](https://dartpad.dev/)
 web site run by the Dart Language group.
