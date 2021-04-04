@@ -13,6 +13,13 @@ help you edit and format your code, and run the examples.
 
 <script type="text/javascript" src="https://dartpad.dev/inject_embed.dart.js" defer></script>
 
+<style>
+iframe {
+    width: 95%;
+    margin: 20px auto;
+}
+</style>
+
 ```dart
 void main() {
   print("hello, world");
