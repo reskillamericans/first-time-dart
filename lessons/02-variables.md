@@ -25,7 +25,7 @@ subtracted, multiplied, or divided using the operators `+`, `-`,
 
 Note that operators in expressions have their own *precedence*.
 That means that multiplication and division are done first, and then
-any addition or substractions.  You can change the order of operations
+any addition or subtraction (from left to right).  You can change the order of operations
 by adding parentheses around the parts of the expression you want
 calculated first.*
 
@@ -36,7 +36,7 @@ void main () {
   // Declare variable x.
   var x;
 
-  // Assign an intial value for x.
+  // Assign an initial value for x.
   x = 2;
 
   print('The value of x is initially ${x}.\n');
@@ -95,7 +95,7 @@ void main() {
 }
 {$ end test.dart $}
 {$ begin hint.txt $}
-To convert from C to F, mulitply C by 9/5 and then add 32.
+To convert from C to F, multiply C by 9/5 and then add 32.
 {$ end hint.txt $}
 ```
 
