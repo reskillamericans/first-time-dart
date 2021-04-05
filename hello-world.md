@@ -15,13 +15,6 @@ help you edit and format your code, and run the examples.
 
 <script type="text/javascript" src="scripts/helper.js" defer></script>
 
-<style>
-<!-- TODO: This should go in the HEAD.  Use script to inject it. -->
-iframe {
-    width: 100%;
-}
-</style>
-
 ```dart
 void main() {
   print("hello, world");
@@ -51,6 +44,9 @@ your code *The Dart Way*.
 
 The first line `void main() {` defines the beginning of a *function* called `main`.  Functions are the building blocks of every program.  In Dart, to run your program, it looks
 for the function called `main` and executes it.  This function is responsible for calling all the other functions of your program.
+
+The `void` keyword tells Dart that this function will not return
+any value (as some functions can).  Since Dart will ignore any returned value anyway, this doesn't matter.
 
 The second line, `print("hello, world")` is an example of a function call.  Here, we are calling the built-in function `print`.  Functions take arguments - data they can use to tell them what to do.  In this case, we have passed in a single `String` argument, "hello, world".  A `String` is just a sequence of text characters.
 
