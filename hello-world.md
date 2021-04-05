@@ -1,5 +1,7 @@
 # Hello, World! - My First Dart Program
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1viR1v4Iw4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The most common first program that programmers write when they begin
 a new programming language is the traditional, "hello, world" program.
 
@@ -55,3 +57,5 @@ The second line, `print("hello, world")` is an example of a function call.  Here
 And lastly, our function ends with a `}`.  The body of a function can be surrounded by the "curly-brace" characters `{` and `}` to tell Dart which program lines are part of your function.
 
 ## Next - [Variables and Expressions](variables.md)
+
+*Report errors or suggestions for this lesson on our [Issue Tracker](https://github.com/reskillamericans/first-time-dart/issues/new?title=hello-world).*
