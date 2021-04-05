@@ -13,8 +13,6 @@ In these tutorials, you will not have to install anything on your
 computer, as we will be using an embedded text editor that can
 help you edit and format your code, and run the examples.
 
-<script type="text/javascript" src="scripts/helper.js" defer></script>
-
 ```dart
 void main() {
   print("hello, world");
@@ -52,6 +50,8 @@ The second line, `print("hello, world")` is an example of a function call.  Here
 
 And lastly, our function ends with a `}`.  The body of a function can be surrounded by the "curly-brace" characters `{` and `}` to tell Dart which program lines are part of your function.
 
-## Next - [Variables and Expressions](variables.md)
+## Next - [Variables and Expressions](02-variables.md)
 
 *Report errors or suggestions for this lesson on our [Issue Tracker](https://github.com/reskillamericans/first-time-dart/issues/new?title=hello-world).*
+
+<script type="text/javascript" src="../scripts/helper.js" defer></script>

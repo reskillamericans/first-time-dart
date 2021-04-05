@@ -101,8 +101,8 @@ To convert from C to F, mulitply C by 9/5 and then add 32.
 
 **Congratulations** if you got that!
 
-## Next - [Conditionals and If Statements](conditionals.md)
+## Next - [Conditionals and If Statements](03-conditionals.md)
 
 *Report errors or suggestions for this lesson on our [Issue Tracker](https://github.com/reskillamericans/first-time-dart/issues/new?title=variables).*
 
-<script type="text/javascript" src="scripts/helper.js" defer></script>
+<script type="text/javascript" src="../scripts/helper.js" defer></script>

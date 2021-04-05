@@ -23,9 +23,9 @@ compile and run Dart programs from your own computer.
 
 ## Tutorials
 
-1. [Hello, World](hello-world.md)
-2. [Variables and Expressions](variables.md)
-4. [Conditionals and If Statements](conditionals.md)
+1. [Hello, World](lessons/01-hello-world.md)
+2. [Variables and Expressions](lessons/02-variables.md)
+4. [Conditionals and If Statements](lessons/03-conditionals.md)
 3. [Loops](loops.md)
 4. [Data Types](data-types.md)
 

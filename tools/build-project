@@ -5,9 +5,9 @@ set -e
 cd $PROJ_DIR
 
 # rm -rf docs
-mkdir -p docs/scripts
+mkdir -p docs/lessons
 
-for file in *.md
+for file in README.md lessons/*.md
 do
     target="docs/${file%.md}.html"
     echo Building $target
@@ -16,5 +16,7 @@ do
     cat assets/jekyll-footer.html >> $target
 done
 
-cp assets/style.css docs
-cp scripts/*.js docs/scripts
+mkdir -p docs/styles && cp assets/style.css docs/styles
+mkdir -p docs/scripts && cp scripts/*.js docs/scripts
+
+tree docs

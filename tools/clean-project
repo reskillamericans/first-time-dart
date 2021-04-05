@@ -1,0 +1,7 @@
+#!/bin/bash
+# clean-project --- Remove build products for a fresh build.
+set -e
+
+cd $PROJ_DIR
+
+rm -rf docs
