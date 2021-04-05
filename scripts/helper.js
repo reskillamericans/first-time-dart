@@ -6,7 +6,18 @@
 //   prefixed with run-dartpad command.
 // - Adds a style sheet needed to ensure IFrames are wide enough.
 let style = document.createElement('style');
-style.textContent = 'iframe { width: 100% }';
+style.textContent = 
+    `iframe {
+        display: block;
+        width: 90%;
+        margin: 15px auto;
+        min-height: 400px;
+    }
+
+    .container-lg {
+        max-width: 800px;
+    }
+    `;
 document.head.appendChild(style);
 
 let scriptNode = document.createElement('script');
