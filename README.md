@@ -33,6 +33,6 @@ compile and run Dart programs from your own computer.
 
 If you would like to contribute to these lessons, you can visit:
 
->[First Time Dart | Github Repository](https://github.com/reskillamericans/first-time-dart)
+> [First Time Dart - Github Repository](https://github.com/reskillamericans/first-time-dart)
 
->[Issue Tracker](https://github.com/reskillamericans/first-time-dart/issues/new) - *Report errors or make suggestions here.*
+> [Issue Tracker](https://github.com/reskillamericans/first-time-dart/issues/new) - *Report errors or make suggestions here.*
