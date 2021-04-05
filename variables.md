@@ -23,7 +23,7 @@ values and operations.  For example, numbers can be added,
 subtracted, multiplied, or divided using the operators `+`, `-`,
 `*`, or `/` respectively.
 
-*Note that operators in expressions have their own *precedence*.
+Note that operators in expressions have their own *precedence*.
 That means that multiplication and division are done first, and then
 any addition or substractions.  You can change the order of operations
 by adding parentheses around the parts of the expression you want
