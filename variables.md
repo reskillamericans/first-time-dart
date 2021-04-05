@@ -1,5 +1,7 @@
 # Variables and Expressions
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yjaHKGhKpqE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 All programs use data to perform some operation, and then transform that data into a useful format.  In order to tell the computer how to process data, programming languages
 use variables to hold and reference data, so they can describe how to make calculations on that data.
 
