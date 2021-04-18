@@ -25,9 +25,25 @@ compile and run Dart programs from your own computer.
 
 1. [Hello, World](lessons/01-hello-world.md)
 2. [Variables and Expressions](lessons/02-variables.md)
-4. [Conditionals and If Statements](lessons/03-conditionals.md)
-3. [Loops](loops.md)
-4. [Data Types](data-types.md)
+3. [Conditionals and If Statements](lessons/03-conditionals.md)
+4. [Loops](lessons/04-loops.md)
+5. [Basic Data Types](lessons/05-data-types.md)
+6. [Functions and Scoping Rules](lessons/06-functions.md)
+7. [Lists]()
+8. [Maps and Sets]()
+9. [Classes]()
+10. []()
+
+Other topics:
+
+- Asynchronous Programming (Futures)
+- Functions as values.
+- The Cascade operator
+- Bitwise operators
+- Assignment += and -=, etc.
+- Operator precedence table (p 241 of the [Dart spec](https://dart.dev/guides/language/specifications/DartLangSpec-v2.10.pdf))
+- 
+
 
 ## Contributions
 
