@@ -39,12 +39,12 @@ void main () {
   // Assign an initial value for x.
   x = 2;
 
-  print('The value of x is initially ${x}.\n');
+  print('The value of x is initially $x.\n');
 
   // Compute a new value for x.
   x = x * 7 + 4;
 
-  print('The new value of x is ${x}.');
+  print('The new value of x is $x.');
 }
 ```
 
@@ -54,9 +54,7 @@ different number and run the program again.
 You'll note that the calls to the `print` function are using
 a special feature of Dart called *string interpolation*.  It
 just means that you can embed the value of a variable in the
-middle of a string, and Dart will expand it inline.  You must
-use the single (`'`) quotes to delimit a string that uses
-string interpolation.
+middle of a string, and Dart will expand it inline.
 
 Below you'll find a code fragment that defines two variables.  One for the temperature as measured in degrees Celsius, and the other for computing the equivalent value in Fahrenheit.
 
